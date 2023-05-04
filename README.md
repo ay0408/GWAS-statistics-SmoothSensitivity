@@ -10,7 +10,7 @@ The procedure to generate simulation data can be found in "Simulation Data" file
 In addition to the results provided in our paper, those for smaller ($N=1,000$) and larger ($N=5,000$) cohorts are also provided.
 These results indicate that our methods are much more useful than the original DP methods based on global sensitivity especially for larger cohorts.
 
-"Run Time" file containes the results on the execution time to compute the ${\it smooth\ sensitivity}$ of each statistic when $N = 1,000$, $2,000$, and $5,000$. These results indicate that our method can be performed within practical time even for a large cohort. 
+"Run Time" file contains the results on the execution time to compute the ${\it smooth\ sensitivity}$ of each statistic when $N = 1,000$, $2,000$, and $5,000$. These results indicate that our method can be performed within practical time even for a large cohort. 
 
 "Proof.pdf" provides the proofs of our Theorems 5 and 6 for calculating the Hamming distance score.
 
