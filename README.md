@@ -12,7 +12,7 @@ These results indicate that our methods are much more useful than the original D
 
 "Run Time" file contains the results on the execution time to compute the ${\it smooth\ sensitivity}$ of each statistic when $N = 1,000$, $2,000$, and $5,000$. These results indicate that our method can be performed within practical time even for a large cohort. 
 
-"Proof.pdf" provides the proofs of our Theorems 5 and 6 for calculating the Hamming distance score.
+"Proof.pdf" provides the proofs of our Theorems 5 and 6 for calculating the Hamming distance.
 
 ## Note
 
