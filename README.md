@@ -12,7 +12,7 @@ These results indicate that our methods are much more useful than the original D
 
 The procedure to generate simulation data for the above experiments can be found in "SimulationData" folder.
 
-"StatsFeature" folder contains the codes for analyses on the characteristics of each statistics. The detailed explanation and discussion are provided in Section 4 in the main document.
+"StatsFeature" folder contains the codes for analyses on the characteristics of each statistics. The detailed explanation and discussion are provided in Section 4 of the main document.
 
 "Proof.pdf" provides the proofs of our Theorems 5 and 6 for calculating the Hamming distance. The proofs of the other theorems are in the main document.
 
