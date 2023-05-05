@@ -4,7 +4,7 @@ This contains Python codes used in our experiments on differentially private (DP
 
 This study focuses on key statistics in GWAS: $\chi^2$-statistics based on a contingency table and TDT statistics for family-based association studies.
 
-The procedure to generate simulation data can be found in "Simulation Data" file.
+The procedure to generate simulation data can be found in "SimulationData" file.
 
 "Accuracy" file contains the experimental results on differences between the original and DP statistics.
 In addition to the results provided in our paper, those for smaller ($N=1,000$) and larger ($N=5,000$) cohorts are also provided.
