@@ -1,6 +1,6 @@
-# Differentially Private GWAS statistics using Smooth Sensitivity
+# Differentially Private GWAS Statistics based on Smooth Sensitivity
 
-This contains Python codes used in our experiments on differentially private (DP) GWAS statistics using their ${\it smooth\ sensitivities}$.
+This contains Python codes used in our experiments on differentially private (DP) GWAS statistics based on their ${\it smooth\ sensitivities}$.
 
 This study focuses on key statistics in GWAS: $\chi^2$-statistics based on a contingency table and TDT statistics for family-based association studies.
 
