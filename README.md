@@ -14,8 +14,6 @@ The procedure to generate simulation data for the above experiments can be found
 
 "StatsFeature" folder contains the codes for analyses on the characteristics of each statistics. The detailed explanation and discussion are provided in Section 4 of the main document.
 
-"Proof.pdf" provides the proofs of our Theorems 5 and 6 for calculating the Hamming distance. The proofs of the other theorems are in the main document.
-
 ## Note
 
 For details of our methods, please see our paper entitled "Privacy-Preserving Publication of GWAS statistics using Smooth Sensitivity".
