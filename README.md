@@ -20,9 +20,9 @@ The procedure to generate simulation data for the above experiments can be found
 
 ・Improving the selection of random variables in Algorithm 1.
 
-・Investigating other important characteristics and possibilities of {\it smooth sensitivity}.
+・Investigating other important characteristics and possibilities of ${\it smooth\ sensitivity}$.
 
-・Developing highly　accurate methods for publishing top-$K$ data based on {\it smooth sensitivity}. 
+・Developing highly accurate methods for publishing top $K$ data based on ${\it smooth\ sensitivity}$. 
 
 ## Note
 
