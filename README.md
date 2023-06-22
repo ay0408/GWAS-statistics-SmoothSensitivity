@@ -14,9 +14,19 @@ The procedure to generate simulation data for the above experiments can be found
 
 "StatsFeature" folder contains the codes for analyses on the characteristics of each statistics. The detailed explanation and discussion are provided in Section 4 of the main document.
 
+## Important future directions
+
+・Covering all statistical analysis in GWAS, e.g., Cochran-Armitage trend test and EIGENSTRAT.
+
+・Improving the selection of random variables in Algorithm 1.
+
+・Investigating other important characteristics and possibilities of {\it smooth sensitivity}.
+
+・Developing highly　accurate methods for publishing top-$K$ data based on {\it smooth sensitivity}. 
+
 ## Note
 
-For details of our methods, please see our paper entitled "Privacy-Preserving Publication of GWAS statistics using Smooth Sensitivity".
+For details of our methods, please see our paper entitled "Privacy-Preserving Publication of GWAS statistics using Smooth Sensitivity" (to appear at PST 2023).
 
 ### Contact
 Akito Yamamoto
