@@ -16,9 +16,11 @@ The procedure to generate simulation data for the above experiments can be found
 
 ## Important Note
 
-・In this study, for the sake of simplicity, we determine the $\chi^2$-statistics based on contingency tables as the values when the number of cases and controls are equal. That is, the equations provided in Section III.B.1 are different from the exact ones. However, because the existing methods compared in our experiments are for the case where the number of cases and controls are equal, we put emphasis in this study on a simple validation of the effectiveness of ${\it smooth\ sensitivity}$. (Actually, the expected number of cases and controls in the simulation data used in our experiments are equal.) In the future, we will use this study as a starting point for further research on privacy-preserving methods that can be used in more precise and general cases, including rigorous analysis of ${\it global\ sensitivity}$ and ${\it local\ sensitivity}$.
+・For the sake of simplicity, we determine the $\chi^2$-statistics based on a contingency table as the values when the number of cases and controls are equal. That is, the equations provided in Section III.B.1 are different from the exact ones. However, in this study, **we put emphasis on a validation of the effectiveness of ${\it smooth\ sensitivity}$ on GWAS statistics**. (Actually, the existing methods compared in our experiments are for the case where the number of cases and controls are equal, and the expected number of them in the simulation data are also equal (i.e., the $\chi^2$-statistics can be approximate to the values shown in Section III.B.1).) In the future, we will use this study as a starting point for further research on privacy-preserving methods that can be used in more precise and general cases, including rigorous analysis of ${\it global\ sensitivity}$ and ${\it local\ sensitivity}$.
 
-## Important future directions
+・As for the case when the number of cases and controls are far apart, the ${\it sensitivities}$ of $\chi^2$-statistics are expected to be much larger \[[Yu et al., 2014](https://www.sciencedirect.com/science/article/pii/S1532046414000100)\]; therefore, we should conduct further reseach on it and develop efficient algorithms to calculate ${\it smooth\ sensitivities}$ (and to reduce noise) for this case.
+
+## Future Directions
 
 ・Covering all statistical analysis in GWAS, e.g., Cochran-Armitage trend test and EIGENSTRAT.
 
@@ -28,7 +30,7 @@ The procedure to generate simulation data for the above experiments can be found
 
 ・Developing highly accurate methods for publishing top $K$ data based on ${\it smooth\ sensitivity}$. 
 
-・Closer investigation should be made regarding the restrictions on the number of cases and controls.
+・Constructing a generalized algorithm to obtain the ${\it smooth sensitivity}$ for general statistics.
 
 ## Note
 
