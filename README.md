@@ -16,7 +16,7 @@ The procedure to generate simulation data for the above experiments can be found
 
 ## Important Note
 
-・For the sake of simplicity, we determine the $\chi^2$-statistics based on a contingency table as the values when the number of cases and controls are equal. That is, the equations provided in Section III.B.1 are different from the exact ones. However, in this study, **we put emphasis on a validation of the effectiveness of ${\it smooth\ sensitivity}$ on GWAS statistics**. (Actually, the existing methods compared in our experiments are for the case where the number of cases and controls are equal, and the expected number of them in the simulation data are also equal (i.e., the $\chi^2$-statistics can be approximate to the values shown in Section III.B.1).) In the future, we will use this study as a starting point for further research on privacy-preserving methods that can be used in more precise and general cases, including rigorous analysis of ${\it global\ sensitivity}$ and ${\it local\ sensitivity}$.
+・For the sake of simplicity, we determine the $\chi^2$-statistics based on a contingency table as the values when the number of cases and controls are equal. That is, the equations provided in Section III.B.1 are different from the exact ones. However, we think this approximation is reasonable in this study because **we put emphasis on a validation of the effectiveness of ${\it smooth\ sensitivity}$ on GWAS statistics**; actually, the existing methods compared in our experiments are for the case where the number of cases and controls are equal, and the expected number of them in the simulation data are also equal (i.e., the $\chi^2$-statistics can be approximate to the values shown in Section III.B.1). In the future, we will use this study as a starting point for further research on privacy-preserving methods that can be used in more precise and general cases, including rigorous analysis of ${\it global\ sensitivity}$ and ${\it local\ sensitivity}$.
 
 ・As for the case when the number of cases and controls are far apart, the ${\it sensitivities}$ of $\chi^2$-statistics are expected to be much larger \[[Yu et al., 2014](https://www.sciencedirect.com/science/article/pii/S1532046414000100)\]; therefore, we should conduct further reseach on it and develop efficient algorithms to calculate ${\it smooth\ sensitivities}$ (and to reduce noise) for this case.
 
@@ -30,13 +30,14 @@ The procedure to generate simulation data for the above experiments can be found
 
 ・Developing highly accurate methods for publishing top $K$ data based on ${\it smooth\ sensitivity}$. 
 
-・Constructing a generalized algorithm to obtain the ${\it smooth sensitivity}$ for general statistics.
+・Constructing a generalized algorithm to obtain the ${\it smooth\ sensitivity}$ for general statistics.
 
 ## Note
 
 For details of our methods, please see our paper entitled "Privacy-Preserving Publication of GWAS statistics using Smooth Sensitivity" (to appear at PST 2023).
 
 Errata:  
+・Section III.B.1. "The $\chi^2$-statistics based on Talbes I and II are" → "When $p+r+t \approx q+s+u$ and $a+c \approx b+d$, the $\chi^2$-statistics based on Talbes I and II are"  
 ・Section III.B.1. $\ \chi^2_{3 \times 2}(p,q,r,s,t,u) =$ → $\ \chi^2_{3 \times 2}(p,q,r,s,t,u) \approx$  
 ・Section III.B.1. $\ \chi^2_{2 \times 2}(a,b,c,d) =$ → $\ \chi^2_{2 \times 2}(a,b,c,d) \approx$  
 ・The last sentence in Section III.B.1. should be ${\it deleted}$.
