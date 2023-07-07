@@ -6,7 +6,7 @@ This study focuses on key statistics in GWAS: $\chi^2$-statistics based on a con
 
 "Accuracy" folder contains the experimental results on differences between the original and DP statistics.
 In addition to the results provided in our paper, those for smaller ($N=1,000$) and larger ($N=5,000$) cohorts are also provided.
-These results indicate that our methods are much more useful than the original DP methods based on ${\it global sensitivity}$ especially for larger cohorts.
+These results indicate that our methods are much more useful than the original DP methods based on ${\it global\ sensitivity}$ especially for larger cohorts.
 
 "RunTime" folder contains the results on the execution time to compute the ${\it smooth\ sensitivity}$ of each statistic when $N = 1,000$, $2,000$, and $5,000$. These results indicate that our method can be performed within practical time even for a large cohort. 
 
