@@ -34,6 +34,8 @@ The procedure to generate simulation data for the above experiments can be found
 
 ・Completely eliminating restrictions on the number of cases and controls.
 
+・Constructing a more general and efficient algorithm to compute ${\it smooth\ sensitivity}$.
+
 ## Note
 
 For details of our methods, please see our paper entitled "Privacy-Preserving Publication of GWAS statistics using Smooth Sensitivity" (to appear at PST 2023).
