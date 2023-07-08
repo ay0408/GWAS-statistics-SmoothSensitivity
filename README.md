@@ -24,6 +24,8 @@ The procedure to generate simulation data for the above experiments can be found
 
 ## Future Directions
 
+・Completely eliminating restrictions on the number of cases and controls for the $\chi^2$-statistics based on a contingnecy table.
+
 ・Covering all statistical analysis in GWAS, e.g., Cochran-Armitage trend test and EIGENSTRAT.
 
 ・Improving the selection of random variables in Algorithm 1.
@@ -31,8 +33,6 @@ The procedure to generate simulation data for the above experiments can be found
 ・Investigating other important characteristics and possibilities of ${\it smooth\ sensitivity}$.
 
 ・Developing highly accurate methods for publishing top $K$ data based on ${\it smooth\ sensitivity}$. 
-
-・Completely eliminating restrictions on the number of cases and controls.
 
 ・Constructing a more general and efficient algorithm to compute ${\it smooth\ sensitivity}$.
 
