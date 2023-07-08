@@ -14,7 +14,7 @@ The procedure to generate simulation data for the above experiments can be found
 
 "StatsFeature" folder contains the codes for analyses on the characteristics of each statistics. The detailed explanation and discussion are provided in Section IV of the main document.
 
-## Important Note
+## Important Notes
 
 ・In this study, the discussion for the $\chi^2$-statistics based on a contingency table is for the case where the number of cases and controls are almost equal. Therefore, for the sake of simplicity, we determine the statistics as the values when the number of cases and controls are equal. That is, the equations provided in Section III.B.1 are different from the exact ones. However, we think this approximation is reasonable in this study because **we put emphasis on a validation of the effectiveness of ${\it smooth\ sensitivity}$ on GWAS statistics**; actually, the existing methods compared in our experiments are for the case where the number of cases and controls are equal, and the expected values of them in the simulation data used in Section V are also equal (i.e., the $\chi^2$-statistics can be approximate to the values shown in Section III.B.1; the values can be regarded as psuedo statistics for evaluation (including the analyses in Section IV.A)). 
 
