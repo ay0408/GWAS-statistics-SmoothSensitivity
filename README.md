@@ -22,6 +22,8 @@ The procedure to generate simulation data for the above experiments can be found
 
 ・Although the analyses and discussions in Section IV are just simple examples of the procedures for constructing algorithms to calculate ${\it smooth\ sensitivities}$, we will use this study as a starting point for further research on privacy-preserving methods that can be used in more precise and general cases, including rigorous analysis of ${\it global\ sensitivity}$ and ${\it local\ sensitivity}$.
 
+・In practice, after determining the range of the number of cases and controls for the analyses, it would be recommended to construct a specific algorithm to obtain ${\it smooth\ sensitivity}$ in a similar manner in Section IV based on the exact statistics.
+
 ## Future Directions
 
 ・Completely eliminating restrictions on the number of cases and controls for the $\chi^2$-statistics based on a contingnecy table.
