@@ -32,7 +32,7 @@ The procedure to generate simulation data for the above experiments can be found
 
 ・Improving the selection of random variables in Algorithm 1.
 
-・Investigating and analyzing other important characteristics and possibilities of ${\it smooth\ sensitivity}$, including those of other noise distributions than the standard Cauchy distribution.
+・Investigating and analyzing other important characteristics and possibilities of ${\it smooth\ sensitivity}$, including other noise distributions than the standard Cauchy distribution.
 
 ・Developing highly accurate methods for publishing top $K$ data based on ${\it smooth\ sensitivity}$. 
 
