@@ -40,7 +40,7 @@ The procedure to generate simulation data for the above experiments can be found
 
 ## Note
 
-For details of our methods, please see our paper entitled "Privacy-Preserving Publication of GWAS statistics using Smooth Sensitivity" (to appear at PST 2023).
+For details of our methods, please see our paper entitled "Privacy-Preserving Publication of GWAS statistics using Smooth Sensitivity" presented at PST 2023.
 
 Errata:  
 ・Section III.B.1. "The $\chi^2$-statistics based on Talbes I and II are" → "When $p+r+t \approx q+s+u$ and $a+c \approx b+d$, the $\chi^2$-statistics based on Tables I and II are"  
