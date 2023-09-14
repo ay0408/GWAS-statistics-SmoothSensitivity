@@ -46,7 +46,7 @@ Errata:
 ・Section III.B.1. "The $\chi^2$-statistics based on Talbes I and II are" → "When $p+r+t \approx q+s+u$ and $a+c \approx b+d$, the $\chi^2$-statistics based on Tables I and II are"  
 ・Section III.B.1. $\ \chi^2_{3 \times 2}(p,q,r,s,t,u) =$ → $\ \chi^2_{3 \times 2}(p,q,r,s,t,u) \approx$  
 ・Section III.B.1. $\ \chi^2_{2 \times 2}(a,b,c,d) =$ → $\ \chi^2_{2 \times 2}(a,b,c,d) \approx$  
-・The last sentence in Section III.B.1. should be ${\it deleted}$. (While Theorems 5 and 6 can be used for cases without restrictions on the number of cases and controls, the evaluation and discussion are still insufficient as a whole.)
+・The last sentence in Section III.B.1. should be ${\it deleted}$ or rewritten as "The global sensitivities analyzed in existing studies were for cases where the number of cases and controls are fixed, and this study is the first to consider cases without such limitations. In particular, we analyzed them approximately where the number of cases and controls are almost equal and not fixed." (Theorems 5 and 6 can be used for cases without restrictions on the number of cases and controls, but the evaluation and discussion are still insufficient as a whole.)
 
 ### Contact
 Akito Yamamoto
