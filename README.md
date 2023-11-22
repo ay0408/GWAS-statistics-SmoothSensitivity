@@ -20,7 +20,7 @@ The procedure to generate simulation data for the above experiments can be found
 
 ・The experimental results (regarding the analysis on ${\it global\ sensitivity}$) indicate that, even when the ratio between the number of cases and controls is ${\it approximately}$ fixed, the global sensitivity is almost the same as the value when the ratio is ${\it strictly}$ fixed. Therefore, for more flexible analysis settings and more strict privacy guarantees, we should also consider ${\it neighboring}$ datasets that allow for changes in elements between case and control groups (i.e., that have no ${\it strict}$ restrictions on the ratio) in computing differentially private $\chi^2$-statistics. 
 
-**・In practice, after determining the range of the number of cases and controls for the analyses, it would be recommended to construct a specific algorithm to obtain ${\it smooth\ sensitivity}$ in a similar manner in Section IV based on the exact statistics.**
+**・In practice, after determining the range of the number of cases and controls for the analyses, it would be recommended to construct a specific algorithm for computing ${\it smooth\ sensitivity}$ in a similar manner in Section IV based on the exact statistics.**
 
 ・As for the cases when the number of cases and controls are far apart, the ${\it sensitivities}$ of $\chi^2$-statistics are expected to be much larger \[[Yu et al., 2014](https://www.sciencedirect.com/science/article/pii/S1532046414000100)\]; therefore, further reseach and analyses on it and develop efficient algorithms to calculate ${\it smooth\ sensitivities}$ (and to reduce noise) for this case might be desired.
 
