@@ -45,7 +45,7 @@ ${\ \ \ }$ ← I expect that it is not so difficult to obtain a more rigorous $(
 
 ## Note
 
-For details of our methods, please see our paper entitled "Privacy-Preserving Publication of GWAS statistics using Smooth Sensitivity" presented at PST 2023.
+For details of our methods, please see our paper entitled "Privacy-Preserving Publication of GWAS statistics using Smooth Sensitivity" (https://doi.org/10.1109/PST58708.2023.10320160) presented at PST 2023.
 
 Errata:  
 ・The last sentence in Section III.B.1. should be ${\it deleted}$ or rewritten as "The global sensitivities analyzed in existing studies were for cases where the number of cases and controls are fixed, and this study is the first to consider cases without such limitations. In particular, we analyzed them approximately where the number of cases and controls are almost equal and not fixed." (Note that Theorems 5 and 6 can be used for any cases without restrictions on the number of cases and controls.)
