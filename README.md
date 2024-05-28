@@ -45,6 +45,8 @@ ${\ \ \ }$ ← I expect that it is not so difficult to obtain a more rigorous $(
 
 ・Constructing a more general and efficient algorithm to compute ${\it smooth\ sensitivity}$.
 
+・Considering the application of ${\it elastic\ sensitivity}$ [[Johnson, Near, and Song, 2018](https://dl.acm.org/doi/10.1145/3177732.3177733)] or ${\it residual\ sensitivity}$ [[Dong and Yi, 2021](https://doi.org/10.1145/3448016.3452813)].
+
 ## Note
 
 For details of our methods, please see our paper entitled "Privacy-Preserving Publication of GWAS statistics using Smooth Sensitivity" (https://doi.org/10.1109/PST58708.2023.10320160) presented at PST 2023.
