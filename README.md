@@ -6,7 +6,8 @@ This study focuses on key statistics in GWAS: $\chi^2$-statistics based on a con
 
 "Accuracy" folder contains the experimental results on differences between the original and DP statistics.
 In addition to the results provided in our paper, those for smaller ($N=1,000$) and larger ($N=5,000$) cohorts are also provided.
-These results indicate that our methods are much more useful than the original DP methods based on ${\it global\ sensitivity}$ especially for larger cohorts.
+These results indicate that our methods are much more useful than the original DP methods based on ${\it global\ sensitivity}$ especially for larger cohorts.  
+(Please also see Important Notes and Errata for the details of the experiments.)
 
 "RunTime" folder contains the results on the execution time to compute the ${\it smooth\ sensitivity}$ of each statistic when $N = 1,000$, $2,000$, and $5,000$. These results indicate that our method can be performed within practical time even for a large cohort. 
 
@@ -14,7 +15,7 @@ The procedure to generate simulation data for the above experiments can be found
 
 "StatsFeature" folder contains the codes for analyses on the characteristics of each statistics. The detailed explanation and discussion are provided in Section IV of the main document.
 
-In our experiments on $\chi^2$-statistics based on a $2 \times 2$ contingency table, we consider ${\it neighboring}$ datasets as two datasets that differ only by one or two alleles in the table. This is because when one individual in the dataset varies, at most two alleles' information varies.
+In our experiments on $\chi^2$-statistics based on a $2 \times 2$ contingency table, we consider ${\it neighboring}$ datasets as two datasets that differ only by one or two alleles in the table. This is because when one individual in the dataset varies, at most two alleles' information varies. 
 
 ## Important Notes
 
@@ -22,7 +23,7 @@ In our experiments on $\chi^2$-statistics based on a $2 \times 2$ contingency ta
 
 ・The experimental results (regarding the analysis on ${\it global\ sensitivity}$) indicate that, even when the ratio between the number of cases and controls is ${\it approximately}$ fixed, the global sensitivity is almost the same as the value when the ratio is ${\it strictly}$ fixed. Therefore, for more flexible analysis settings and more strict privacy guarantees, we should also consider ${\it neighboring}$ datasets that allow for changes in elements between case and control groups (i.e., that have no ${\it strict}$ restrictions on the ratio) in computing differentially private $\chi^2$-statistics for genomic statistical analysis.
 
-**・In practice, after determining the range of the number of cases and controls for the analyses, it would be recommended to construct a specific algorithm for computing ${\it smooth\ sensitivity}$ in a similar manner in Section IV based on the exact statistics.**
+**・In practice, after determining the range of the number of cases and controls for the analyses, it would be recommended to construct a specific algorithm for computing ${\it smooth\ sensitivity}$ in a similar manner to that described in Section IV based on the exact statistics.**
 
 ・As for the cases when the number of cases and controls are far apart, the ${\it sensitivities}$ of $\chi^2$-statistics are expected to be much larger \[[Yu et al., 2014](https://www.sciencedirect.com/science/article/pii/S1532046414000100)\]; therefore, further reseach and analyses on it and develop efficient algorithms for calculating ${\it smooth\ sensitivities}$ (and to reduce noise) for this case might be desired.
 
