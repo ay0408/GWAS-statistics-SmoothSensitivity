@@ -42,6 +42,8 @@ In our experiments on $\chi^2$-statistics based on a $2 \times 2$ contingency ta
 ・Investigating and analyzing other important characteristics and possibilities of ${\it smooth\ sensitivity}$, including other noise distributions than the standard Cauchy distribution.  
 ${\ \ \ }$ ← I expect that it is not so difficult to obtain a more rigorous $(\alpha, \beta)$- ${admissible}$ property (than was previously reported in [Smooth Sensitivity and Sampling in Private Data Analysis](https://cs-people.bu.edu/ads22/pubs/NRS07/NRS07-full-draft-v1.pdf)) of the general distribution with density $h(z) \propto \frac{1}{1+|z|^\gamma}$ by following our Theorem 1 and its proof. $\biggl($ I assume that the values of $(\alpha, \beta)$ are $\left(\frac{\epsilon}{2 \cdot (\gamma-1)^{\frac{\gamma-1}{\gamma}}}, \frac{\epsilon}{2 (\gamma - 1)}\right)$. $\biggr)$ However, this was not addressed in this study, because we focused on comparing ${\it global\ sensitivity}$ and ${\it smooth\ sensitivity}$, rather than comparing among ${\it smooth \ sensitivity}$-based methods. (Detailed results on this point will be presented in a separate paper.) Moreover, for a quantitative evaluation and comparison among noise distributions, I believe that it is more important to have a closer discussion on inequalities in the proof and accordingly extend and elaborate the concepts of ${admissible}$ and ${smooth\ sensitivity}$ (and differential privacy).
 
+・Developing methods for publishing $k$ genome statistics together. (This study focued on the publication of each statistic individually.)
+
 ・Developing highly accurate methods for publishing top $K$ data based on ${\it smooth\ sensitivity}$. 
 
 ・Constructing a more general and efficient algorithm to compute ${\it smooth\ sensitivity}$.
