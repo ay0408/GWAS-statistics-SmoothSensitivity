@@ -49,7 +49,7 @@ ${\ \ \ }$ ← I expect that it is not so difficult to obtain a more rigorous $(
 ・Constructing a more general and efficient algorithm to compute ${\it smooth\ sensitivity}$.
 
 ・Considering $(\epsilon, \delta)$-differential privacy settings.  
-← In fact, the existing $(\epsilon, \delta)$-differentially private algorithm using a smooth upper bound [[Smooth Sensitivity and Sampling in Private Data Analysis](https://cs-people.bu.edu/ads22/pubs/NRS07/NRS07-full-draft-v1.pdf)] (shown as Lemma 1 in our paper) should not be theoretically correct where $\delta > 0$. This algorithm should satisfy $\left(\epsilon, \frac{\delta}{2} \left( e^{\epsilon/2} + 1 \right)\right)$-differential privacy. More detailed discussion on this point and the development of new algorithms will be required.
+← In fact, the existing $(\epsilon, \delta)$-differentially private algorithm using a smooth upper bound [[Smooth Sensitivity and Sampling in Private Data Analysis](https://cs-people.bu.edu/ads22/pubs/NRS07/NRS07-full-draft-v1.pdf)] (shown as Lemma 1 in our paper) should not be sufficiently rigorous where $\delta > 0$. This algorithm should satisfy $\left(\epsilon, \frac{\delta}{2} \left( e^{\epsilon/2} + 1 \right)\right)$-differential privacy for $\alpha = \alpha(\epsilon,\delta)$ and $\beta = \beta(\epsilon,\delta)$. Therefore, we should use $\alpha = \alpha(\epsilon', \delta')$ and $\beta = \beta(\epsilon', \delta')$, where $\epsilon' = \epsilon$ and $\delta' = \frac{2 \delta}{e^{\epsilon/2} + 1}$. More detailed discussion on this point and the development of new algorithms will be required.
 
 ## Note
 
