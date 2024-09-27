@@ -62,6 +62,8 @@ Errata:
 ・Section III.B.1. $\ \chi^2_{3 \times 2}(p,q,r,s,t,u) =$ → $\ \chi^2_{3 \times 2}(p,q,r,s,t,u) \approx$  
 ・Section III.B.1. $\ \chi^2_{2 \times 2}(a,b,c,d) =$ → $\ \chi^2_{2 \times 2}(a,b,c,d) \approx$  
 
+・Figs. 5 and 6, The labels of $x$-axes. "Number of individuals" → "Number of families"
+
 ### Contact
 Akito Yamamoto
 
